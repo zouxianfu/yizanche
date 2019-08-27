@@ -4,7 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import Mui from 'vue-awesome-mui'
+import 'vue-awesome-mui/mui/dist/css/mui.css'
+
+Vue.use(Mui)
+
 Vue.config.productionTip = false
+
 
 /* eslint-disable no-new */
 new Vue({

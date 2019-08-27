@@ -1,7 +1,8 @@
 <template>
 	<!--汽车商城主页面-->
 	<div>
-		<h1>汽车商城父组件</h1>
+		<h1 @click="Zhuoqu">汽车商城父组件</h1>
+		
 	</div>
 </template>
 
@@ -10,6 +11,11 @@
 		name:"qcsc",
 		data(){
 			return {}
+		},
+		methods:{
+			Zhuoqu(){
+				alert(1)
+			}
 		}
 	}
 </script>

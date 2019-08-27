@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+//测试组件
+import test from '@/components/test/test'
+
+import QC from '@/components/Qcsc/Qczs/QC'
+
 //组件引入模块
 import Qcsc from '@/components/QcSc' //汽车商城父组件
 import Qczx from '@/components/QcZx' //汽车商城父组件
@@ -16,7 +21,7 @@ export default new Router({
     {
       path: '/',
       name: 'Qcsc',
-      component: Qcsc
+      component: QC
     },
     {
     	path:'/Qcsc',
