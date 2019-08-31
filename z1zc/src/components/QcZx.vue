@@ -1,7 +1,7 @@
 <template>
 	<!--汽车资讯主页面-->
 	<div>
-		<h1>汽车资讯父组件</h1>
+		
 		<qczxseach :aclass="aclass"></qczxseach>
 	</div>
 </template>

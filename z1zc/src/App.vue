@@ -1,16 +1,22 @@
 <template>
   <div id="app">
     <router-view />
+
+    <router-view />
+    <Xfoots></Xfoots>
   </div>
 </template>
 
+
 <script>
-import axios from 'axios'
+import Xfoots from "@/components/Xfoots";
 export default {
-  name: "App"
+  name: "App",
+  components: {
+    Xfoots
+  }
 };
 </script>
-
 <style>
 @import "./font/iconfont.css";
 .iconfont {
@@ -29,6 +35,5 @@ ul {
   text-align: center;
   background-color: #fff;
   font-size: 14px;
-  color: #333
-}
-</style>
+  color: #333}
+  </style>
