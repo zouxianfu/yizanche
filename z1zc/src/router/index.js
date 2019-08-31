@@ -25,7 +25,7 @@ export default new Router({
     },
     {
     	path:'/Qcsc',
-    	name:'Qcsc',
+    	name:'qcsc',
     	component:Qcsc
     },
     {

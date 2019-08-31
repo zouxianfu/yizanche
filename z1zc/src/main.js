@@ -6,6 +6,8 @@ import router from './router'
 
 import Mui from 'vue-awesome-mui'
 import 'vue-awesome-mui/mui/dist/css/mui.css'
+// import axios from "axios"
+// Vue.use(axios)
 
 Vue.use(Mui)
 
