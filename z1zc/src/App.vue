@@ -2,7 +2,7 @@
   <div id="app">
     <router-view />
 
-    <router-view />
+    
     <Xfoots></Xfoots>
   </div>
 </template>
@@ -26,14 +26,22 @@ export default {
 ul {
   list-style: none;
 }
+p,h3{
+  padding: 0px;
+  margin: 0px;
+}
 * {
   padding: 0px;
   margin: 0px;
+}
+html{
+  background-color: #fff
 }
 #app {
   height: 100%;
   text-align: center;
   background-color: #fff;
   font-size: 14px;
-  color: #333}
+  color: #333
+  }
   </style>

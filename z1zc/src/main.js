@@ -13,6 +13,23 @@ Vue.use(Mui)
 
 Vue.config.productionTip = false
 
+//时间过滤器 年 月 日
+const Totime = function (timestap) {
+  var date;
+  if (timestap !== undefined) {
+    if (timestap.toString().length < 13) {
+      date = new Date(timestap * 1000)
+    } else {
+      date = new Date(timestap)
+    }
+    let Y=date.getFullYear()+"-";
+    let M=date.getMonth()+"-";
+    let D=date.getDay()
+    // console.log(timestap)
+    return Y+M+D
+  }
+}
+Vue.filter('totime', Totime)
 
 /* eslint-disable no-new */
 new Vue({

@@ -11,7 +11,7 @@ import Qcsc from '@/components/QcSc' //汽车商城父组件
 import Qczx from '@/components/QcZx' //汽车商城父组件
 import Gwc from '@/components/Gwc' //汽车商城父组件
 import Grzx from '@/components/GrZx' //汽车商城父组件
-
+import Wzdeatile from '@/components/QzzxDeatile' //汽车资讯文章详情父组件
 
 //全局插件模块
 Vue.use(Router)
@@ -42,6 +42,11 @@ export default new Router({
     	path:'/Grzx',
     	name:'Grzx',
     	component:Grzx
+    },
+    {
+      path:'/Wzdeatile',
+      name:'Wzdeatile',
+      component:Wzdeatile
     }
   ]
 })
